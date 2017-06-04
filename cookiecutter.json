@@ -1,0 +1,14 @@
+{
+	"Full_name": "Luis Mayta",
+	"email": "slovacus@gmail.com",
+  "github_user": "hadenlabs",
+  "github_author": "https://github.com/luismayta",
+  "company": "hadenlabs",
+	"project_name": "project-name",
+	"repo_name": "python-project-name",
+	"short_description": "Python Project name",
+	"release_date": "2016-08-19",
+	"year": "2016",
+	"version": "0.0.0",
+  "license": "Mit"
+}
