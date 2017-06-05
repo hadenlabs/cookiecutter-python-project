@@ -14,7 +14,7 @@ ANSIBLE_PROVISION = $(shell) $(SCRIPT_DIR)/provision.sh
 ANSIBLE_DEPLOY = $(shell) $(SCRIPT_DIR)/deploy.sh
 CLEAN = $(shell) $(SCRIPT_DIR)/clean.sh
 GVM = $(shell) $(SCRIPT_DIR)/gvm.sh
-GRIP = $(shell) $(SCRIPT_DIR)/grip.sh
+DOCUMENTATION = $(shell) $(SCRIPT_DIR)/documentation.sh
 PYENV = $(shell) $(SCRIPT_DIR)/pyenv.sh
 SETUP = $(shell) $(SCRIPT_DIR)/setup.sh
 INSTALL = $(shell) $(SCRIPT_DIR)/install.sh
@@ -50,12 +50,10 @@ distclean: clean
 
 environment:
 	$(PYENV)
-	$(GVM)
-	$(INSTALL)
 
 
-grip:
-	$(GRIP)
+documentation:
+	$(DOCUMENTATION)
 
 
 install:
@@ -64,11 +62,6 @@ install:
 
 roles:
 	$(ROLES_ANSIBLE)
-
-
-maintainer-clean: distclean
-	rm -rf $(BIN_DIR)
-	rm -rf $(ROOT_DIR)/lib/
 
 
 lintcode:
