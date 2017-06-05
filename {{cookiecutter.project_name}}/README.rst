@@ -1,35 +1,72 @@
-# {{cookiecutter.project_name}}
+{{cookiecutter.project_name}}
+#############################
+
+|build_status| |code_climate| |github_tag| |issue_count| |github_issues| |test_coverage| |license|
+
+:Version: {{cookiecutter.version}}
+:Web: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}
+:Download: http://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}
+:Source: http://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}
+:Keywords: {{cookiecutter.repo_name}}
 
 {{cookiecutter.short_description}}
 
-<span class="badges">
-[![Code Climate](https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/badges/gpa.svg)](https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}})
-[![GitHub issues](https://img.shields.io/github/issues/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/issues)
-[![GitHub forks](https://img.shields.io/github/forks/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}})
-[![GitHub stars](https://img.shields.io/github/stars/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg)](https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}})
-[![Issue Count](https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/badges/issue_count.svg)](https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}})
-[![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
-[![Test Coverage](https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/badges/coverage.svg)](https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/coverage)
-</span>
+.. contents:: Table of Contents:
+    :local:
 
-## Requirements
+Requirements
+============
 
-## Changelog
+Changelog
+=========
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please see `changelog`_ for more information what has changed recently.
 
-## Contributing
+Contributing
+============
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see `contributing`_ for details.
 
-## Credits
+Credits
+=======
 
-Made with :heart: ️:coffee:️ and :pizza: by [{{cookiecutter.company}}][link-company].
+Made with :heart: ️:coffee:️ and :pizza: by `company`_.
 
-- [All Contributors][link-contributors]
+- `All Contributors`_
 
+.. |code_climate| image:: https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/badges/gpa.svg
+  :target: https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}
+  :alt: Code Climate
 
-<!-- Other -->
+.. |github_tag| image:: https://img.shields.io/github/tag/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg?maxAge=2592000
+  :target: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}
+  :alt: Github Tag
 
-[link-company]: https://github.com/{{cookiecutter.company}}
-[link-contributors]: AUTHORS
+.. |build_status| image:: https://travis-ci.org/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg
+  :target: https://travis-ci.org/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}
+  :alt: Build Status Tag
+
+.. |github_issues| image:: https://img.shields.io/github/issues/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}.svg
+  :target: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}hadenlabs/cookiecutter-python-project/issues
+  :alt: Github Issues
+
+.. |issues_count| image:: https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/badges/issue_count.svg
+  :target: https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}
+  :alt: Issue Count
+
+.. |license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
+  :target: LICENSE
+  :alt: License
+
+.. |test_coverage| image:: https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/badges/coverage.svg
+  :target: https://codeclimate.com/github/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/coverage
+  :alt: Test Coverage
+
+..
+   Links
+
+.. _`changelog`: CHANGELOG.rst
+.. _`contributors`: AUTHORS
+.. _`contributing`: CONTRIBUTING.rst
+.. _`company`: https://github.com/{{cookiecutter.company}}
+.. _`author`: https://github.com/{{cookiecutter.github_user}}
