@@ -83,5 +83,6 @@ Made with :heart: ️:coffee:️ and :pizza: by `company`_.
 .. _`changelog`: CHANGELOG.rst
 .. _`cookiecutter`: https://www.cookiecutter.com
 .. _`contributors`: AUTHORS
+.. _`contributing`: CONTRIBUTING.rst
 .. _`company`: https://github.com/hadenlabs
 .. _`author`: https://github.com/luismayta
