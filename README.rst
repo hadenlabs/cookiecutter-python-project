@@ -19,28 +19,31 @@ Cookiecutter recipe to easily create pythonlang project.
 Features
 ========
 
-  * Only Creates the necessary files and folders.
-  * Blazing fast creation, forget about file creation and focus in actions.
+- Only Creates the necessary files and folders.
+- Blazing fast creation, forget about file creation and focus in actions.
 
 
 Requirements
 ============
 
- - Linux
-   - none
- - OSX
-   - none
+- Linux
+  - none
+- OSX
+  - none
 
 Usage
-======
+=====
+
+How to Use:
 
 ::
-  cookiecutter https://github.com/hadenlabs/cookiecutter-python-project.git
+    cookiecutter https://github.com/hadenlabs/cookiecutter-python-project.git
 
 This will generate this folders (Please note the absence of templates folder):
 
 
-## Changelog
+Changelog
+=========
 
 Please see `changelog`_ for more information what has changed recently.
 
@@ -78,6 +81,6 @@ Made with :heart: ️:coffee:️ and :pizza: by `company`_.
 
 .. _`changelog`: CHANGELOG.md
 .. _`cookiecutter`: https://www.cookiecutter.com
-.. _contributors: AUTHORS
-.. _company: https://github.com/hadenlabs
-.. _author: https://github.com/luismayta
+.. _`contributors`: AUTHORS
+.. _`company`: https://github.com/hadenlabs
+.. _`author`: https://github.com/luismayta
