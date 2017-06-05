@@ -2,21 +2,17 @@
 Cookiecutter Project Python
 ===========================
 
-.. image:: https://img.shields.io/github/tag/hadenlabs/cookiecutter-python-project.svg?maxAge=2592000
-.. target:: https://github.com/hadenlabs/cookiecutter-python-project
-.. alt:: Github Tag
+|github-tag| |build-status| |github-issues| |license|
 
-.. image:: https://travis-ci.org/hadenlabs/cookiecutter-python-project.svg
-.. target:: https://travis-ci.org/hadenlabs/cookiecutter-python-project
-.. alt:: Build Status Tag
+:Version: 0.0.1
+:Web: http://github.com/hadenlabs/cookiecutter-python-project/
+:Download: http://github.com/hadenlabs/cookiecutter-python-project/
+:Source: http://github.com/hadenlabs/cookiecutter-python-project/
+:Keywords: cookiecutter, python, template
 
-.. image:: https://img.shields.io/github/issues/hadenlabs/cookiecutter-python-project.svg
-.. target:: https://github.com/hadenlabs/cookiecutter-python-project/issues
-.. alt:: Github Issues
+.. contents:: Table of Contents:
+    :local:
 
-.. image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
-.. target:: LICENSE
-.. alt:: Github License
 
 Cookiecutter recipe to easily create pythonlang project.
 
@@ -46,21 +42,42 @@ This will generate this folders (Please note the absence of templates folder):
 
 ## Changelog
 
-Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+Please see `changelog`_ for more information what has changed recently.
 
 Contributing
 ============
 
-Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+Please see `contributing`_ for details.
 
 Credits
 =======
 
-Made with :heart: ️:coffee:️ and :pizza: by [hadenlabs][link-company].
+Made with :heart: ️:coffee:️ and :pizza: by `company`_.
 
-- [All Contributors][link-contributors]
+- `contributors`_
 
-[link-cookiecutter]: https://www.cookiecutter.com
-[link-contributors]: AUTHORS
-[link-company]: https://github.com/hadenlabs
-[link-luis]: https://github.com/luismayta
+
+.. |github-tag| image:: https://img.shields.io/github/tag/hadenlabs/cookiecutter-python-project.svg?maxAge=2592000
+  :target: https://github.com/hadenlabs/cookiecutter-python-project
+  :alt: Github Tag
+
+.. |build-status| image:: https://travis-ci.org/hadenlabs/cookiecutter-python-project.svg
+  :target: https://travis-ci.org/hadenlabs/cookiecutter-python-project
+  :alt: Build Status Tag
+
+.. |github-issues| image:: https://img.shields.io/github/issues/hadenlabs/cookiecutter-python-project.svg
+  :target: https://github.com/hadenlabs/cookiecutter-python-project/issues
+  :alt: Github Issues
+
+.. |license| image:: https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square
+  :target: LICENSE
+  :alt: Github License
+
+..
+   Links
+
+.. _`changelog`: CHANGELOG.md
+.. _`cookiecutter`: https://www.cookiecutter.com
+.. _contributors: AUTHORS
+.. _company: https://github.com/hadenlabs
+.. _author: https://github.com/luismayta
