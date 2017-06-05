@@ -1,14 +1,15 @@
-# Change Log
+=========
+ChangeLog
+=========
+
 All notable changes to this project will be documented in this file.
-This file uses change log convention from [Keep a CHANGELOG](http://keepachangelog.com).
-
-## [Unreleased][unreleased]
+This file uses change log convention from `keep a CHANGELOG`_.
 
 
-[unreleased]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/compare/0.0.1...HEAD
-[0.0.1]: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/compare/0.0.0...0.0.1
+`Unreleased`_
+-------------
 
-[CHANGELOG.md]: CHANGELOG.md
-[CONTRIBUTING.md]: CONTRIBUTING.md
-[LICENCE.md]: LICENCE.md
-[README.md]: README.md
+.. _`Unreleased`: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/compare/0.0.1...HEAD
+.. _0.0.1: https://github.com/{{cookiecutter.github_user}}/{{cookiecutter.repo_name}}/compare/0.0.0...0.0.1
+
+.. _`keep a CHANGELOG`: http://keepachangelog.com/en/0.3.0/
