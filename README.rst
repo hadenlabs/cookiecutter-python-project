@@ -36,8 +36,9 @@ Usage
 
 How to Use:
 
-::
-    cookiecutter https://github.com/hadenlabs/cookiecutter-python-project.git
+.. code-block:: bash
+
+  cookiecutter https://github.com/hadenlabs/cookiecutter-python-project.git
 
 This will generate this folders (Please note the absence of templates folder):
 
@@ -79,7 +80,7 @@ Made with :heart: ️:coffee:️ and :pizza: by `company`_.
 ..
    Links
 
-.. _`changelog`: CHANGELOG.md
+.. _`changelog`: CHANGELOG.rst
 .. _`cookiecutter`: https://www.cookiecutter.com
 .. _`contributors`: AUTHORS
 .. _`company`: https://github.com/hadenlabs
