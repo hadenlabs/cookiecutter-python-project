@@ -1,13 +1,14 @@
-# Change Log
+=========
+ChangeLog
+=========
+
 All notable changes to this project will be documented in this file.
-This file uses change log convention from [Keep a CHANGELOG](http://keepachangelog.com).
+This file uses change log convention from `keep a CHANGELOG`_.
 
-## [Unreleased]
+`Unreleased`_
+-------------
 
-[unreleased]: https://github.com/hadenlabs/cookiecutter-python-project/compare/0.0.1...HEAD
-[0.0.1]: https://github.com/hadenlabs/cookiecutter-python-project/compare/0.0.0...0.0.1
+.. _`Unreleased`: https://github.com/hadenlabs/cookiecutter-python-project/compare/0.0.1...HEAD
+.. _0.0.1: https://github.com/hadenlabs/cookiecutter-python-project/compare/0.0.0...0.0.1
 
-[CHANGELOG.md]: CHANGELOG.md
-[CONTRIBUTING.md]: CONTRIBUTING.md
-[LICENCE.md]: LICENCE.md
-[README.md]: README.md
+.. _`keep a CHANGELOG`: http://keepachangelog.com/en/0.3.0/
