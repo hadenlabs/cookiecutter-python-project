@@ -1,6 +1,5 @@
-===========================
 Cookiecutter Project Python
-===========================
+#############################
 
 |github-tag| |build-status| |github-issues| |license|
 
@@ -14,17 +13,17 @@ Cookiecutter Project Python
     :local:
 
 
-Cookiecutter recipe to easily create pythonlang project.
+Cookiecutter recipe to easily create python lang project.
 
 Features
-========
+********
 
 - Only Creates the necessary files and folders.
 - Blazing fast creation, forget about file creation and focus in actions.
 
 
 Requirements
-============
+************
 
 - Linux
   - none
@@ -32,7 +31,7 @@ Requirements
   - none
 
 Usage
-=====
+*****
 
 How to Use:
 
@@ -44,17 +43,17 @@ This will generate this folders (Please note the absence of templates folder):
 
 
 Changelog
-=========
+*********
 
 Please see `changelog`_ for more information what has changed recently.
 
 Contributing
-============
+************
 
 Please see `contributing`_ for details.
 
 Credits
-=======
+*******
 
 Made with :heart: ️:coffee:️ and :pizza: by `company`_.
 
