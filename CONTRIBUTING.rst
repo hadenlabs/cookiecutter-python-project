@@ -1,5 +1,5 @@
 How to contribute
-=================
+#################
 
 Prerequisites:
 
@@ -29,12 +29,12 @@ contributions:
    formatting.
 
 Conduct
-=======
+*******
 
 Communication
-=============
+*************
 
 Frequently Asked Questions
-==========================
+**************************
 
 *please add*

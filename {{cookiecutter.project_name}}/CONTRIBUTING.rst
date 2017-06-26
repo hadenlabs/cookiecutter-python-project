@@ -1,7 +1,8 @@
 How to contribute
-=================
+#################
 
 Prerequisites:
+**************
 
 -  Familiarity with `pull
    requests <https://help.github.com/articles/using-pull-requests>`__
@@ -29,12 +30,12 @@ contributions:
    formatting.
 
 Conduct
-=======
+*******
 
 Communication
-=============
+*************
 
 Frequently Asked Questions
-==========================
+**************************
 
 *please add*

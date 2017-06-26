@@ -15,20 +15,20 @@
     :local:
 
 Requirements
-============
+************
 
 Changelog
-=========
+*********
 
 Please see `changelog`_ for more information what has changed recently.
 
 Contributing
-============
+************
 
 Please see `contributing`_ for details.
 
 Credits
-=======
+*******
 
 Made with :heart: ️:coffee:️ and :pizza: by `company`_.
 
