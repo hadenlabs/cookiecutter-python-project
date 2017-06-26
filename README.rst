@@ -41,6 +41,47 @@ How to Use:
 
 This will generate this folders (Please note the absence of templates folder):
 
+Developing
+**********
+
+Environment Python with docker.
+
+Setup
+=====
+
+.. code-block:: bash
+
+  λ make build
+  λ make up
+
+Environment
+===========
+
+.. code-block:: bash
+
+  λ make build
+
+Others
+======
+
+Other commands for developing are written in Makefile:
+
+.. code-block:: bash
+
+  λ make help
+    Commands:
+      build                Build docker container
+      clean                clean Files compiled
+      deploy               Deploy Application
+      documentation        Make Documentation
+      environment          Make environment for developer
+      install              Install Dependences
+      lint                 Clean files unnecesary
+      test                 make test
+      setup                install only dependences production
+      up                   Up application
+      runserver            Runserver
+      help                 Show help text
 
 Changelog
 *********
