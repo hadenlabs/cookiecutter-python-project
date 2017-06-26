@@ -1,79 +1,62 @@
-# Makefile for cookiecutter-python-project.
+.PHONY: build deploy lint test functions help
+.DEFAULT_GOAL := help
 
 # Configuration.
 SHELL = /bin/bash
 ROOT_DIR = $(shell pwd)
-BIN_DIR = $(ROOT_DIR)/bin
-DATA_DIR = $(ROOT_DIR)/var
 SCRIPT_DIR = $(ROOT_DIR)/script
 
-WGET = wget
-
 # Bin scripts
-ANSIBLE_PROVISION = $(shell) $(SCRIPT_DIR)/provision.sh
-ANSIBLE_DEPLOY = $(shell) $(SCRIPT_DIR)/deploy.sh
 CLEAN = $(shell) $(SCRIPT_DIR)/clean.sh
-GVM = $(shell) $(SCRIPT_DIR)/gvm.sh
 DOCUMENTATION = $(shell) $(SCRIPT_DIR)/documentation.sh
+DEPLOY = $(shell) $(SCRIPT_DIR)/deploy.sh
 PYENV = $(shell) $(SCRIPT_DIR)/pyenv.sh
 INSTALL = $(shell) $(SCRIPT_DIR)/install.sh
-LINTCODE = $(shell) $(SCRIPT_DIR)/lintcode.sh
+LINT = $(shell) $(SCRIPT_DIR)/lint.sh
 TEST = $(shell) $(SCRIPT_DIR)/test.sh
+SETUP = $(shell) $(SCRIPT_DIR)/setup.sh
 RUNSERVER = $(shell) $(SCRIPT_DIR)/runserver.sh
-SYNC = $(shell) $(SCRIPT_DIR)/sync.sh
-WATCH = $(shell) $(SCRIPT_DIR)/watch.sh
 
 
-ansible_provision:
-	$(ANSIBLE_PROVISION)
+build:  ## Build docker container
+	docker-compose build
 
-
-ansible_deploy:
-	$(ANSIBLE_DEPLOY)
-
-
-clean:
+clean: ## clean Files compiled
 	$(CLEAN)
 
+deploy: ## Deploy Application
+	make clean
+	$(DEPLOY)
 
-deploy:
-	$(ANSIBLE_PROVISION)
-	$(ANSIBLE_DEPLOY)
-
-
-distclean: clean
-	rm -rf $(ROOT_DIR)/lib
-	rm -rf $(ROOT_DIR)/*.egg-info
-	rm -rf $(ROOT_DIR)/demo/*.egg-info
-
-
-environment:
-	$(PYENV)
-
-
-documentation:
+documentation: ## Make Documentation
+	make clean
 	$(DOCUMENTATION)
 
+environment: ## Make environment for developer
+	$(PYENV)
 
-install:
+install: ## Install Dependences
 	$(INSTALL)
 
+lint: ## Clean files unnecesary
+	make clean
+	$(LINT)
 
-roles:
-	$(ROLES_ANSIBLE)
-
-
-lintcode:
-	$(LINTCODE)
-
-
-sync:
-	$(SYNC)
-
-
-watch:
-	$(WATCH)
-
-
-test:
+test: ## make test
 	$(TEST)
+
+setup: ## install only dependences production
+	make clean
+	$(SETUP)
+
+up: ## Up application
+	make build
+	docker-compose up
+
+runserver:  ## Runserver
+	make clean
+	$(RUNSERVER)
+
+help: ## Show help text
+	@echo "Commands:"
+	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | awk 'BEGIN {FS = ":.*?## "}; {printf "    \033[36m%-20s\033[0m %s\n", $$1, $$2}'

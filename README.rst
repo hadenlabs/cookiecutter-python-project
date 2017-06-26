@@ -1,10 +1,9 @@
-===========================
 Cookiecutter Project Python
-===========================
+#############################
 
 |github-tag| |build-status| |github-issues| |license|
 
-:Version: 0.0.1
+:Version: 0.0.2
 :Web: http://github.com/hadenlabs/cookiecutter-python-project/
 :Download: http://github.com/hadenlabs/cookiecutter-python-project/
 :Source: http://github.com/hadenlabs/cookiecutter-python-project/
@@ -14,17 +13,17 @@ Cookiecutter Project Python
     :local:
 
 
-Cookiecutter recipe to easily create pythonlang project.
+Cookiecutter recipe to easily create python lang project.
 
 Features
-========
+********
 
 - Only Creates the necessary files and folders.
 - Blazing fast creation, forget about file creation and focus in actions.
 
 
 Requirements
-============
+************
 
 - Linux
   - none
@@ -32,7 +31,7 @@ Requirements
   - none
 
 Usage
-=====
+*****
 
 How to Use:
 
@@ -42,19 +41,60 @@ How to Use:
 
 This will generate this folders (Please note the absence of templates folder):
 
+Developing
+**********
+
+Environment Python with docker.
+
+Setup
+=====
+
+.. code-block:: bash
+
+  λ make build
+  λ make up
+
+Environment
+===========
+
+.. code-block:: bash
+
+  λ make build
+
+Others
+======
+
+Other commands for developing are written in Makefile:
+
+.. code-block:: bash
+
+  λ make help
+    Commands:
+      build                Build docker container
+      clean                clean Files compiled
+      deploy               Deploy Application
+      documentation        Make Documentation
+      environment          Make environment for developer
+      install              Install Dependences
+      lint                 Clean files unnecesary
+      test                 make test
+      setup                install only dependences production
+      up                   Up application
+      runserver            Runserver
+      help                 Show help text
 
 Changelog
-=========
+*********
 
 Please see `changelog`_ for more information what has changed recently.
 
 Contributing
-============
+************
 
 Please see `contributing`_ for details.
 
 Credits
-=======
+*******
 
 Made with :heart: ️:coffee:️ and :pizza: by `company`_.
 
