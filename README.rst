@@ -3,7 +3,7 @@ Cookiecutter Project Python
 
 |github-tag| |build-status| |github-issues| |license|
 
-:Version: 0.0.1
+:Version: 0.0.2
 :Web: http://github.com/hadenlabs/cookiecutter-python-project/
 :Download: http://github.com/hadenlabs/cookiecutter-python-project/
 :Source: http://github.com/hadenlabs/cookiecutter-python-project/
